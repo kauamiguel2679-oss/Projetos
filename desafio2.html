@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de CSS</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+
+<body>
+    <h1>
+        <span class="azul">SENA</span><span class="laranja">I</span>
+    </h1>
+    <hr>
+    <h2>Cadastro de cursos</h2>
+    <form action="Cadastro.html" method="post">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+<br><br>
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula">
+        <br><br>
+        <label for="data-de-nascimento">Data de nascimento: </label>
+        <input type="date" required>
+        <br><br>
+        <select name="selecionar-cursos" id="selecionar-cursos">
+            <option value="informatica">Informatica</option>
+            <option value="cofeitaria">Cofeitaria</option>
+            <option value="mecanica">Mecanica</option>
+            <option value="quimica">Quimica</option>
+        </select>
+ <br><br>
+        <textarea name="observacoes" id="observacoes"></textarea>
+        <button type="submit">Enviar</button>
+        <br><br><br>
+        <footer>
+            <h4>Para mais informações:</h4>
+            <p>Acesse o nosso site!</p>
+            <a href="https://www.senai.portaldaindustria.com.br/para-voce" target="_blank">SENAI</a>
+        </footer>
+    </form>
+    
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Atividade</title>
+</head>
+
+<body>
+   <!--Exercício 1-->
+   <h1>Exercício 1</h1>
+   <form action="Cadastro.html" method="post">
+      <label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+      <br><br>
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="senha">Senha: </label>
+      <input type="password" id="senha" placeholder="Digite sua senha" name="senha" required>
+      <button type="submit">Enviar</button>
+   </form>
+   <hr>
+   <br>
+</body>
+
+<body>
+   <h1>Exercício 2</h1>
+   <form action="Cadastro.html" method="post">
+      <label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+      <br>
+      <label for="matricula">Matrícula:</label>
+      <input type="text" id="matricula" name="matricula">
+      <br>
+      <label for="data-de-nascimento">Data de nascimento: </label>
+      <input type="date" required>
+      <br>
+      <select name="selecionar-cursos" id="selecionar-cursos">
+         <option value="informatica">Informatica</option>
+         <option value="cofeitaria">Cofeitaria</option>
+         <option value="mecanica">Mecanica</option>
+         <option value="quimica">Quimica</option>
+      </select>
+      <br>
+      <textarea name="observacoes" id="observacoes"></textarea>
+      <br>
+      <button type="submit">Enviar</button>
+   </form>
+   <hr>
+   <br>
+   <h1>Exercício 3</h1>
+   <form action="Cadastro.html" method="post">
+      <label for="nome">Nome: </label>
+      <input type="text" name="nome" placeholder="Digite seu nome" required>
+      <br>
+      <label for="turnos">Turnos: </label>
+      <select name="turnos" id="turnos">
+         <option value="manha">Manhã</option>
+         <option value="tarde">Tarde</option>
+         <option value="noite">Noite</option>
+      </select>
+      <br>
+      <input type="checkbox" id="html" name="tecnologias" value="html">
+      <label for="html">
+         HTML
+      </label>
+      <br>
+      <input type="checkbox" id="css" name="tecnologias" value="css">
+      <label for="css">
+         CSS
+      </label>
+      <br>
+      <input type="checkbox" id="javascript" name="tecnologias" value="javascript">
+      <label for="javascript">
+         JavaScript
+      </label>
+   </form>
+   <hr>
+   <br>
+</body>
+
+</html>
