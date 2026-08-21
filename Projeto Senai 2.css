@@ -17,10 +17,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
+    
 }
 
 h1 {
     transition: 0.5s;
+    
 }
 
 h1:hover {
@@ -48,15 +50,23 @@ h2:hover {
 }
 
 h4 {
-    color: darkblue;
+    color: white;
     text-transform: capitalize;
 }
 
 a {
-    color: blue;
+    color: white;
 }
 
 a:hover {
     color: rgb(212, 83, 7);
     text-decoration: underline;
+}
+
+footer {
+    margin-top: 120px;
+    padding: 3%;
+    background-color: rgb(2, 2, 99);
+    color: white;
+    text-align: center;
 }
